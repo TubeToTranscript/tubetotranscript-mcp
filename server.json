@@ -1,0 +1,36 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.TubeToTranscript/tubetotranscript",
+  "title": "TubeToTranscript",
+  "description": "YouTube transcripts for AI agents: captions with timestamps, languages, TXT, SRT and VTT export.",
+  "websiteUrl": "https://www.tubetotranscript.com/youtube-transcript-api",
+  "repository": {
+    "url": "https://github.com/TubeToTranscript/tubetotranscript-mcp",
+    "source": "github"
+  },
+  "version": "1.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "tubetotranscript-mcp",
+      "version": "1.1.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.tubetotranscript.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer YOUR_API_KEY. Create a free key at https://www.tubetotranscript.com/signup",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "name": "tubetotranscript-mcp",
+  "version": "1.1.1",
+  "mcpName": "io.github.TubeToTranscript/tubetotranscript",
+  "description": "TubeToTranscript MCP server: let Claude, Cursor, and AI agents read YouTube transcripts. Free, no API key. Get captions with timestamps, list languages, export TXT, SRT, or VTT. https://www.tubetotranscript.com",
+  "type": "module",
+  "bin": {
+    "tubetotranscript-mcp": "index.mjs"
+  },
+  "main": "./index.mjs",
+  "exports": {
+    ".": "./index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "youtube",
+    "transcript",
+    "subtitles",
+    "captions",
+    "srt",
+    "vtt",
+    "claude",
+    "cursor",
+    "ai-agent",
+    "llm",
+    "tubetotranscript",
+    "youtube-transcript",
+    "youtube-captions",
+    "youtube-subtitles",
+    "youtube-mcp",
+    "mcp-youtube",
+    "video-transcript",
+    "claude-desktop",
+    "claude-code",
+    "chatgpt"
+  ],
+  "homepage": "https://www.tubetotranscript.com/youtube-transcript-api",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TubeToTranscript/tubetotranscript-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TubeToTranscript/tubetotranscript-mcp/issues",
+    "email": "support@tubetotranscript.com"
+  },
+  "author": {
+    "name": "TubeToTranscript",
+    "email": "support@tubetotranscript.com",
+    "url": "https://www.tubetotranscript.com"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
